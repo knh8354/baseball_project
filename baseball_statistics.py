@@ -240,7 +240,7 @@ if selected == '야구시뮬레이션':
             "runs":0,
         }
 
-        score_data['team']=[f'{team1['name']}',f'{team2['name']}']
+        score_data['team'] = [f"{team1['name']}", f"{team2['name']}"]
         st.write(f"{select_team1}의 승률:",team1_win_rate)
         st.write(f"{select_team2}의 승률:",team2_win_rate)
 
